@@ -88,8 +88,8 @@ const Sample = () => {
     const data = [];
     const [valueIter, setValueIter] = useState([]);
     const [valueXl, setValueXl] = useState([]);
-    const [valueXm, setValueXm] = useState([]);
-    const [valueXr, setValueXr] = useState([]);
+    const [, setValueXm] = useState([]);
+    const [, setValueXr] = useState([]);
 
 
     const [html, setHtml] = useState(null);
